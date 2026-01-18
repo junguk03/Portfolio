@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | 정욱 Portfolio</title>
+    <meta name="description" content="정욱의 블로그 - 개발 및 보안 학습 기록">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">JungUk</a>
+            <button class="nav-toggle" aria-label="메뉴 열기">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="blog.html" class="nav-link active">Blog</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="page-title">Blog & Activities</h1>
+            <p class="page-subtitle">학습 기록과 블로그 활동</p>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog-section">
+        <div class="container">
+            <!-- Naver Blog -->
+            <div class="blog-main">
+                <div class="blog-header">
+                    <svg viewBox="0 0 24 24" fill="currentColor" class="blog-platform-icon"><path d="M16.273 12.845L7.376 0H0v24h7.727V11.155L16.624 24H24V0h-7.727z"/></svg>
+                    <div>
+                        <h2>Naver Blog</h2>
+                        <p>개발 및 보안 학습 기록을 공유합니다</p>
+                    </div>
+                    <a href="https://blog.naver.com/junkuk9503" target="_blank" rel="noopener" class="btn btn-outline">Visit Blog</a>
+                </div>
+
+                <div class="blog-posts">
+                    <h3 class="blog-posts-title">Featured Posts</h3>
+
+                    <a href="https://blog.naver.com/junkuk9503/224139478968" target="_blank" rel="noopener" class="blog-post-card">
+                        <div class="blog-post-content">
+                            <span class="blog-post-badge">Blog Post</span>
+                            <h4>블로그 포스트 #1</h4>
+                            <p>개발 및 학습 관련 글</p>
+                        </div>
+                        <span class="blog-post-arrow">→</span>
+                    </a>
+
+                    <a href="https://blog.naver.com/junkuk9503/224092707242" target="_blank" rel="noopener" class="blog-post-card">
+                        <div class="blog-post-content">
+                            <span class="blog-post-badge">Blog Post</span>
+                            <h4>블로그 포스트 #2</h4>
+                            <p>개발 및 학습 관련 글</p>
+                        </div>
+                        <span class="blog-post-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Activities -->
+            <div class="activities-section">
+                <h2 class="section-title">Learning Activities</h2>
+
+                <div class="activities-grid">
+                    <div class="activity-card">
+                        <div class="activity-icon">🎮</div>
+                        <h3>OverTheWire Wargames</h3>
+                        <p>Bandit, Natas 등 워게임 풀이를 통한 보안 기초 학습</p>
+                        <ul class="activity-list">
+                            <li>Linux 명령어 및 권한 이해</li>
+                            <li>웹 취약점 실습</li>
+                            <li>암호화/복호화 학습</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-icon">🔍</div>
+                        <h3>OWASP Top 10 Study</h3>
+                        <p>주요 웹 보안 취약점 학습 및 실습</p>
+                        <ul class="activity-list">
+                            <li>Injection 공격 이해</li>
+                            <li>인증/세션 취약점</li>
+                            <li>XSS, CSRF 실습</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-icon">🛠️</div>
+                        <h3>Tool Practice</h3>
+                        <p>보안 도구를 활용한 실습</p>
+                        <ul class="activity-list">
+                            <li>Burp Suite 프록시 분석</li>
+                            <li>Wireshark 패킷 분석</li>
+                            <li>Kali Linux 환경 구축</li>
+                        </ul>
+                    </div>
+
+                    <div class="activity-card">
+                        <div class="activity-icon">🔬</div>
+                        <h3>Self Security Lab</h3>
+                        <p>직접 만든 프로젝트에서 취약점 분석</p>
+                        <ul class="activity-list">
+                            <li>의도적 취약점 삽입</li>
+                            <li>모의 해킹 실습</li>
+                            <li>보안 패치 적용</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Security Portfolio -->
+            <div class="security-portfolio-section">
+                <h2 class="section-title">Security Portfolio</h2>
+                <div class="security-card">
+                    <div class="security-card-content">
+                        <span class="security-badge">🔐 Security</span>
+                        <h3>보안 학습 포트폴리오</h3>
+                        <p>OWASP Top 10 분석, 워게임 풀이, 취약점 분석 보고서 등 보안 학습 기록을 정리한 포트폴리오입니다.</p>
+                        <div class="security-tags">
+                            <span>OWASP</span>
+                            <span>Wargame</span>
+                            <span>Penetration Testing</span>
+                        </div>
+                    </div>
+                    <a href="https://github.com/junguk03/security-portfolio" target="_blank" rel="noopener" class="btn btn-primary">View on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Want to connect?</h2>
+                <p>GitHub에서 더 많은 프로젝트를 확인하거나 블로그에서 학습 기록을 살펴보세요.</p>
+                <div class="cta-buttons">
+                    <a href="https://github.com/junguk03" target="_blank" rel="noopener" class="btn btn-primary">GitHub</a>
+                    <a href="https://blog.naver.com/junkuk9503" target="_blank" rel="noopener" class="btn btn-secondary">Naver Blog</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-copyright">© 2025 JungUk. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://github.com/junguk03" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://blog.naver.com/junkuk9503" target="_blank" rel="noopener">Blog</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
